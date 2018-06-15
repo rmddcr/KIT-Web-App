@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Avilon Bootstrap Template</title>
+  <title>KIT</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -43,7 +43,7 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <h1><a href="#intro" class="scrollto">Avilon</a></h1>
+        <h1><a href="#intro" class="scrollto">KIT</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="#intro"><img src="img/logo.png" alt="" title=""></a> -->
       </div>
@@ -74,6 +74,7 @@
             </ul>
           </li>
           <li><a href="#contact">Contact Us</a></li>
+          <li><a href="#register">Register</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -85,8 +86,8 @@
   <section id="intro">
 
     <div class="intro-text">
-      <h2>Welcome to Avilon</h2>
-      <p>We are team of talanted designers making websites with Bootstrap</p>
+      <h2>Welcome to KIT</h2>
+      <p>An app for vehicle diagnosis and to guide you to the nearest garage.</p>
       <a href="#about" class="btn-get-started scrollto">Get Started</a>
     </div>
 
@@ -184,7 +185,7 @@
                 <h4 class="title"><a href="">Dolor Sitema</a></h4>
                 <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata noble dynala mark.</p>
               </div>
-              <div class="col-lg-6 col-md-6 box wow fadeInRight data-wow-delay="0.2s">
+              <div class="col-lg-6 col-md-6 box wow fadeInRight data-wow-delay="0.2s>
                 <div class="icon"><i class="ion-social-buffer-outline"></i></div>
                 <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
                 <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur teleca starter sinode park ledo.</p>
@@ -763,7 +764,22 @@
   <script src="contactform/contactform.js"></script>
 
   <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
+  <script src="js/main.js">
+
+  <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyC1O0Wm91aQ1pP_y7tTkjDR5WwlF21H2XE",
+      authDomain: "kit-web-app.firebaseapp.com",
+      databaseURL: "https://kit-web-app.firebaseio.com",
+      projectId: "kit-web-app",
+      storageBucket: "kit-web-app.appspot.com",
+      messagingSenderId: "715230902142"
+    };
+    firebase.initializeApp(config);
+  </script>
+  </script>
 
 </body>
 </html>
