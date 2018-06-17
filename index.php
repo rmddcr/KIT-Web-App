@@ -8,7 +8,7 @@
   <meta content="" name="description">
 
   <!-- Favicons -->
-  <link href="img/favicon.png" rel="icon">
+  <link href="img/logo/kit.png" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -43,7 +43,7 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <h1><a href="#intro" class="scrollto">KIT</a></h1>
+        <h1><a href="#intro" class="scrollto"><img src="img/logo/kit.png" alt="" height="34" width="34"></a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="#intro"><img src="img/logo.png" alt="" title=""></a> -->
       </div>
@@ -53,10 +53,10 @@
           <li class="menu-active"><a href="#intro">Home</a></li>
           <li><a href="#about">About Us</a></li>
           <li><a href="#features">Features</a></li>
-          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#download">Download</a></li>
           <li><a href="#team">Team</a></li>
           <li><a href="#gallery">Gallery</a></li>
-          <li class="menu-has-children"><a href="">Drop Down</a>
+          <!-- <li class="menu-has-children"><a href="">Drop Down</a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
               <li class="menu-has-children"><a href="#">Drop Down 2</a>
@@ -72,9 +72,9 @@
               <li><a href="#">Drop Down 4</a></li>
               <li><a href="#">Drop Down 5</a></li>
             </ul>
-          </li>
+          </li> -->
           <li><a href="#contact">Contact Us</a></li>
-          <li><a href="#register">Register</a></li>
+          <li><a href="login/login.html" target="_blank">Sign In</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -88,7 +88,7 @@
     <div class="intro-text">
       <h2>Welcome to KIT</h2>
       <p>An app for vehicle diagnosis and to guide you to the nearest garage.</p>
-      <a href="#about" class="btn-get-started scrollto">Get Started</a>
+      <a href="#download" class="btn-get-started scrollto">Download</a>
     </div>
 
     <div class="product-screens">
@@ -275,13 +275,13 @@ keeping track of license, insurance due dates and lease installments.
     </section><!-- #advanced-features -->
 
     <!--==========================
-      Call To Action Section
+      Download Section
     ============================-->
-    <section id="call-to-action">
+    <section id="download">
       <div class="container">
         <div class="row">
           <div class="col-lg-9 text-center text-lg-left">
-            <h3 class="cta-title">Download App</h3>
+            <h3 class="cta-title">Download the Android App</h3>
             <p class="cta-text"> Here you can get download the mobile app</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
@@ -290,7 +290,7 @@ keeping track of license, insurance due dates and lease installments.
         </div>
 
       </div>
-    </section><!-- #call-to-action -->
+    </section><!-- #download -->
 
     <!--==========================
       More Features Section
@@ -309,7 +309,7 @@ keeping track of license, insurance due dates and lease installments.
           <div class="col-lg-6">
             <div class="box wow fadeInLeft">
               <div class="icon"><i class="ion-ios-stopwatch-outline"></i></div>
-              <h4 class="title"><a href="">Day/night mode </a></h4>
+              <h4 class="title"><a href="">Day/Night Mode </a></h4>
               <p class="description">Day/night mode for KIT app to make easy to use while day & night driving.</p>
             </div>
           </div>
@@ -333,7 +333,7 @@ keeping track of license, insurance due dates and lease installments.
           <div class="col-lg-6">
             <div class="box wow fadeInRight">
               <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
-              <h4 class="title"><a href="">In-built bluetooth settings</a></h4>
+              <h4 class="title"><a href="">In-built Bluetooth Settings</a></h4>
               <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum rideta zanox satirente madera</p>
             </div>
           </div>
@@ -394,9 +394,9 @@ keeping track of license, insurance due dates and lease installments.
 
           <div class="col-lg-4 col-md-6">
             <div class="box wow fadeInLeft">
-              <h3>Free</h3>
+              <h3>wsiiroon Bluetooth OBD II Scanner Adapter</h3>
               <img src="img/adapters/adapter-1.png" height="128" width="128">
-              <h4><sup>$</sup>0<span> month</span></h4>
+              <h4><sup>$</sup>18.99</h4>
               <!-- <ul>
                 <li><i class="ion-android-checkmark-circle"></i> Quam adipiscing vitae proin</li>
                 <li><i class="ion-android-checkmark-circle"></i> Nec feugiat nisl pretium</li>
@@ -404,15 +404,15 @@ keeping track of license, insurance due dates and lease installments.
                 <li><i class="ion-android-checkmark-circle"></i> Pharetra massa massa ultricies</li>
                 <li><i class="ion-android-checkmark-circle"></i> Massa ultricies mi quis hendrerit</li>
               </ul> -->
-              <a href="#" class="get-started-btn">Get Started</a>
+              <a href="https://www.amazon.com/wsiiroon-WIFI-OBD-Wireless-Diagnostic/dp/B071YC1J7R/ref=sr_1_8?s=automotive&ie=UTF8&qid=1529151834&sr=1-8&keywords=obd2+scanner&refinements=p_n_shipping_option-bin%3A3242350011%2Cp_36%3A1000-3000" target="_blank" class="get-started-btn">Buy on Amazon</a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6">
             <div class="box featured wow fadeInUp">
-              <h3>Business</h3>
-              <img src="img/adapters/adapter-2.png" height="128" width="128">
-              <h4><sup>$</sup>29<span> month</span></h4>
+              <h3>Kitbest Bluetooth OBD II Scanner Adapter</h3>
+              <img src="img/adapters/adapter-4.png" height="128" width="128">
+              <h4><sup>$</sup>10.99</h4>
               <!-- <ul>
                 <li><i class="ion-android-checkmark-circle"></i> Quam adipiscing vitae proin</li>
                 <li><i class="ion-android-checkmark-circle"></i> Nec feugiat nisl pretium</li>
@@ -420,15 +420,15 @@ keeping track of license, insurance due dates and lease installments.
                 <li><i class="ion-android-checkmark-circle"></i> Pharetra massa massa ultricies</li>
                 <li><i class="ion-android-checkmark-circle"></i> Massa ultricies mi quis hendrerit</li>
               </ul> -->
-              <a href="#" class="get-started-btn">Get Started</a>
+              <a href="https://www.amazon.com/Kitbest-Bluetooth-Scanner-Diagnostic-Warranty/dp/B01BY2CK32/ref=sr_1_7?s=automotive&ie=UTF8&qid=1529147618&sr=1-7&keywords=obd2+scanner&refinements=p_n_shipping_option-bin%3A3242350011" target="_blank" class="get-started-btn">Buy on Amazon</a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6">
             <div class="box wow fadeInRight">
-              <h3>Developer</h3>
+              <h3>KOBRA Bluetooth OBD II Scanner Adapter</h3>
               <img src="img/adapters/adapter-3.png" height="128" width="128">
-              <h4><sup>$</sup>49<span> month</span></h4>
+              <h4><sup>$</sup>12.95</h4>
               <!-- <ul>
                 <li><i class="ion-android-checkmark-circle"></i> Quam adipiscing vitae proin</li>
                 <li><i class="ion-android-checkmark-circle"></i> Nec feugiat nisl pretium</li>
@@ -436,7 +436,7 @@ keeping track of license, insurance due dates and lease installments.
                 <li><i class="ion-android-checkmark-circle"></i> Pharetra massa massa ultricies</li>
                 <li><i class="ion-android-checkmark-circle"></i> Massa ultricies mi quis hendrerit</li>
               </ul> -->
-              <a href="#" class="get-started-btn">Get Started</a>
+              <a href="https://www.amazon.com/KOBRA-Scanner-OBD-Wirelessly-Eliminator/dp/B01C6CZ0SQ/ref=sr_1_23?s=automotive&ie=UTF8&qid=1529147618&sr=1-23&keywords=obd2+scanner&refinements=p_n_shipping_option-bin%3A3242350011" target="_blank" class="get-started-btn">Buy on Amazon</a>
             </div>
           </div>
 
@@ -530,56 +530,64 @@ keeping track of license, insurance due dates and lease installments.
         <div class="row wow fadeInUp">
           <div class="col-lg-3 col-md-6">
             <div class="member">
-              <div class="pic"><img src="img/team/team-1.jpg" alt=""></div>
-              <h4>Walter White</h4>
-              <span>Chief Executive Officer</span>
+              <div class="pic"><img src="img/team/suran.jpeg" alt=""></div>
+              <h4>Suran Kalana</h4>
+              <!-- <span>Chief Executive Officer</span> -->
               <div class="social">
-                <a href=""><i class="fa fa-twitter"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
-                <a href=""><i class="fa fa-google-plus"></i></a>
-                <a href=""><i class="fa fa-linkedin"></i></a>
+                <a href="https://twitter.com/SuranKalana" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.facebook.com/suran.kalana" target="_blank"><i class="fa fa-facebook"></i></a>
+                <!-- <a href=""><i class="fa fa-google-plus"></i></a> -->
+                <a href="https://www.linkedin.com/in/suran-kalana-8432a9a2/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/surankalana/" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://github.com/surankalana" target="_blank"><i class="fa fa-github"></i></a>
               </div>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6">
             <div class="member">
-              <div class="pic"><img src="img/team/team-2.jpg" alt=""></div>
-              <h4>Sarah Jhinson</h4>
-              <span>Product Manager</span>
+              <div class="pic"><img src="img/team/lasitha.jpeg" alt=""></div>
+              <h4>Lasitha Hiranjan</h4>
+              <!-- <span>Product Manager</span> -->
               <div class="social">
-                <a href=""><i class="fa fa-twitter"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
-                <a href=""><i class="fa fa-google-plus"></i></a>
-                <a href=""><i class="fa fa-linkedin"></i></a>
+                <a href="https://twitter.com/LasithaWijesin3" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.facebook.com/lazi.maxx" target="_blank"><i class="fa fa-facebook"></i></a>
+                <!-- <a href=""><i class="fa fa-google-plus"></i></a> -->
+                <a href="https://www.linkedin.com/in/lasitha-wijesinghe-383742138/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/knight_lexxy/" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://github.com/LasithaWijesinghe" target="_blank"><i class="fa fa-github"></i></a>
               </div>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6">
             <div class="member">
-              <div class="pic"><img src="img/team/team-3.jpg" alt=""></div>
-              <h4>William Anderson</h4>
-              <span>CTO</span>
+              <div class="pic"><img src="img/team/supul.jpeg" alt=""></div>
+              <h4>Supul Dulanka</h4>
+              <!-- <span>CTO</span> -->
               <div class="social">
-                <a href=""><i class="fa fa-twitter"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
-                <a href=""><i class="fa fa-google-plus"></i></a>
-                <a href=""><i class="fa fa-linkedin"></i></a>
+                <a href="https://twitter.com/supuldulanka" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.facebook.com/supul.dilanka" target="_blank"><i class="fa fa-facebook"></i></a>
+                <!-- <a href=""><i class="fa fa-google-plus"></i></a> -->
+                <a href="https://www.linkedin.com/in/supul-dulanka-bb6322105/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/supuldulanka/" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://github.com/supuldulanka" target="_blank"><i class="fa fa-github"></i></a>
               </div>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6">
             <div class="member">
-              <div class="pic"><img src="img/team/team-4.jpg" alt=""></div>
-              <h4>Amanda Jepson</h4>
-              <span>Accountant</span>
+              <div class="pic"><img src="img/team/sasanka.jpeg" alt=""></div>
+              <h4>Sasanka Sandes</h4>
+              <!-- <span>Accountant</span> -->
               <div class="social">
-                <a href=""><i class="fa fa-twitter"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
-                <a href=""><i class="fa fa-google-plus"></i></a>
-                <a href=""><i class="fa fa-linkedin"></i></a>
+                <a href="https://twitter.com/SandesSasanka" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.facebook.com/sasankasandes" target="_blank"><i class="fa fa-facebook"></i></a>
+                <!-- <a href=""><i class="fa fa-google-plus"></i></a> -->
+                <a href="https://www.linkedin.com/in/sasanka-sandes-040470143" target="_blank"><i class="fa fa-linkedin"></i></a>
+                  <a href="https://www.instagram.com/knight_lexxy/" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://github.com/SasankaSandes" target="_blank"><i class="fa fa-github"></i></a>
               </div>
             </div>
           </div>
@@ -663,8 +671,8 @@ keeping track of license, insurance due dates and lease installments.
 
           <div class="col-lg-4 col-md-4">
             <div class="contact-about">
-              <h3>Avilon</h3>
-              <p>Cras fermentum odio eu feugiat. Justo eget magna fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+              <h3>Leviathan</h3>
+              <p></p>
               <div class="social-links">
                 <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
                 <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
@@ -679,17 +687,17 @@ keeping track of license, insurance due dates and lease installments.
             <div class="info">
               <div>
                 <i class="ion-ios-location-outline"></i>
-                <p>A108 Adam Street<br>New York, NY 535022</p>
+                <p>8/27D, Siddhartha road<br>Kirulapone, Colombo, Sri Lanka</p>
               </div>
 
               <div>
                 <i class="ion-ios-email-outline"></i>
-                <p>info@example.com</p>
+                <p>slkitweb@gmail.com</p>
               </div>
 
               <div>
                 <i class="ion-ios-telephone-outline"></i>
-                <p>+1 5589 55488 55s</p>
+                <p>+94 778 542 119</p>
               </div>
 
             </div>
@@ -738,17 +746,17 @@ keeping track of license, insurance due dates and lease installments.
       <div class="row">
         <div class="col-lg-6 text-lg-left text-center">
           <div class="copyright">
-            &copy; Copyright <strong>Avilon</strong>. All Rights Reserved
+            &copy; Copyright <strong>Leviathan</strong>. All Rights Reserved
           </div>
-          <div class="credits">
+          <!-- <div class="credits"> -->
             <!--
               All the links in the footer should remain intact.
               You can delete the links only if you purchased the pro version.
               Licensing information: https://bootstrapmade.com/license/
               Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Avilon
             -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-          </div>
+            <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+          <!-- </div> -->
         </div>
         <div class="col-lg-6">
           <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
