@@ -74,7 +74,7 @@
             </ul>
           </li> -->
           <li><a href="#contact">Contact Us</a></li>
-          <li><a href="login/login.html" target="_blank">Sign In</a></li>
+          <li><a href="garage-web/pages/examples/sign-in.html" target="_blank">Sign In</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -746,7 +746,7 @@ keeping track of license, insurance due dates and lease installments.
       <div class="row">
         <div class="col-lg-6 text-lg-left text-center">
           <div class="copyright">
-            &copy; Copyright <strong>Leviathan</strong>. All Rights Reserved
+            <!-- &copy; Copyright <strong>Leviathan</strong>. All Rights Reserved -->
           </div>
           <!-- <div class="credits"> -->
             <!--
