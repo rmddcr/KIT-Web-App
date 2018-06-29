@@ -94,15 +94,15 @@
     <div class="product-screens">
 
       <div class="product-screen-1 wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.6s">
-        <img src="img/product-screen-1.png" alt="">
+        <img src="img/1.jpg" alt="" height="600" width="314">
       </div>
 
       <div class="product-screen-2 wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.6s">
-        <img src="img/product-screen-2.png" alt="">
+        <img src="img/2.jpg" alt="" height="600" width="314">
       </div>
 
       <div class="product-screen-3 wow fadeInUp" data-wow-duration="0.6s">
-        <img src="img/product-screen-3.png" alt="">
+        <img src="img/8.jpg" alt="" height="600" width="314">
       </div>
 
     </div>
@@ -127,7 +127,7 @@
 
         <div class="row">
           <div class="col-lg-6 about-img wow fadeInLeft">
-            <img src="img/about-img.jpg" alt="">
+            <img src="img/gp-1.jpg" alt="">
           </div>
 
           <div class="col-lg-6 content wow fadeInRight">
@@ -171,7 +171,7 @@
           </div>
 
           <div class="col-lg-4 col-md-5 features-img">
-            <img src="img/product-features.png" alt="" class="wow fadeInLeft">
+            <img src="img/gp-4.jpg" alt="" class="wow fadeInLeft">
           </div>
 
           <div class="col-lg-8 col-md-7 ">
@@ -345,7 +345,7 @@ keeping track of license, insurance due dates and lease installments.
     <!--==========================
       Clients
     ============================-->
-    <section id="clients">
+    <!-- <section id="clients">
       <div class="container">
 
         <div class="row wow fadeInUp">
@@ -376,7 +376,8 @@ keeping track of license, insurance due dates and lease installments.
 
         </div>
       </div>
-    </section><!-- #more-features -->
+    </section> -->
+    <!-- #more-features -->
 
     <!--==========================
       Pricing Section
@@ -604,58 +605,58 @@ keeping track of license, insurance due dates and lease installments.
         <div class="section-header">
           <h3 class="section-title">Gallery</h3>
           <span class="section-divider"></span>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <!-- <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p> -->
         </div>
 
         <div class="row no-gutters">
 
           <div class="col-lg-4 col-md-6">
             <div class="gallery-item wow fadeInUp">
-              <a href="img/gallery/gallery-1.jpg" class="gallery-popup">
-                <img src="img/gallery/gallery-1.jpg" alt="">
+              <a href="img/gallery/3.jpg" class="gallery-popup">
+                <img src="img/gallery/3.jpg" alt="">
               </a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6">
             <div class="gallery-item wow fadeInUp">
-              <a href="img/gallery/gallery-2.jpg" class="gallery-popup">
-                <img src="img/gallery/gallery-2.jpg" alt="">
+              <a href="img/gallery/4.jpg" class="gallery-popup">
+                <img src="img/gallery/4.jpg" alt="">
               </a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6">
             <div class="gallery-item wow fadeInUp">
-              <a href="img/gallery/gallery-3.jpg" class="gallery-popup">
-                <img src="img/gallery/gallery-3.jpg" alt="">
+              <a href="img/gallery/5.jpg" class="gallery-popup">
+                <img src="img/gallery/5.jpg" alt="">
               </a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6">
             <div class="gallery-item wow fadeInUp">
-              <a href="img/gallery/gallery-4.jpg" class="gallery-popup">
-                <img src="img/gallery/gallery-4.jpg" alt="">
+              <a href="img/gallery/6.jpg" class="gallery-popup">
+                <img src="img/gallery/6.jpg" alt="">
               </a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6">
             <div class="gallery-item wow fadeInUp">
-              <a href="img/gallery/gallery-5.jpg" class="gallery-popup">
-                <img src="img/gallery/gallery-5.jpg" alt="">
+              <a href="img/gallery/7.jpg" class="gallery-popup">
+                <img src="img/gallery/7.jpg" alt="">
               </a>
             </div>
           </div>
-
+<!--
           <div class="col-lg-4 col-md-6">
             <div class="gallery-item wow fadeInUp">
               <a href="img/gallery/gallery-6.jpg" class="gallery-popup">
                 <img src="img/gallery/gallery-6.jpg" alt="">
               </a>
             </div>
-          </div>
+          </div> -->
 
         </div>
 
