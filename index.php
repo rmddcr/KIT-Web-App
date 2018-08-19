@@ -53,26 +53,10 @@
           <li class="menu-active"><a href="#intro">Home</a></li>
           <li><a href="#about">About Us</a></li>
           <li><a href="#features">Features</a></li>
+          <li><a href="#compatibility">Compatibility</a></li>
           <li><a href="#download">Download</a></li>
           <li><a href="#team">Team</a></li>
           <li><a href="#gallery">Gallery</a></li>
-          <!-- <li class="menu-has-children"><a href="">Drop Down</a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="menu-has-children"><a href="#">Drop Down 2</a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-              <li><a href="#">Drop Down 5</a></li>
-            </ul>
-          </li> -->
           <li><a href="#contact">Contact Us</a></li>
           <li><a href="garage-web/pages/examples/sign-in.html" target="_blank">Sign In</a></li>
         </ul>
@@ -88,6 +72,7 @@
     <div class="intro-text">
       <h2>Welcome to KIT</h2>
       <p>An app for vehicle diagnosis and to guide you to the nearest garage.</p>
+      <a href="#compatibility" class="btn-get-started scrollto">Check Compatibility</a>
       <a href="#download" class="btn-get-started scrollto">Download</a>
     </div>
 
@@ -121,21 +106,23 @@
           <span class="section-divider"></span>
           <p class="section-description">
             KIT will give information on your vehicle condition, diagnose any problems and guide you to the nearest garage to repair your vehicle.<br>
-            So our prime goal is to provide information about your car and guide you to the nearest garage if any faults occur through a simple app
+            So our primary goal is to provide information about your car and guide you to the nearest garage if any fault occurs, through a simple app.
           </p>
         </div>
 
         <div class="row">
           <div class="col-lg-6 about-img wow fadeInLeft">
-            <img src="img/gp-1.jpg" alt="">
+            <img src="img/about-img-kit.jpg.png" alt="">
           </div>
 
           <div class="col-lg-6 content wow fadeInRight">
             <h2>Our Main Purpose</h2>
             <h3>Why KIT</h3>
             <p>
-              In Sri Lanka most of drivers suffers from not knowing their issues with their vehicles and there are only limited options with mobile apps which help drivers. Our intention is to create an app for drivers to provide information on the vehicle condition, help them identify faults and errors occur in their vehicle and guide them to the nearest garage which is specialized in that fault.
-              So this KIT app and the web will help to the customers on various ways and will obtain a lot advantages. Customers will survive with the following issues when they are using KIT.
+              In Sri Lanka most of drivers suffers from not knowing their issues with their vehicles and there are only limited options with mobile apps which help drivers.
+              Our intention is to create an app for drivers to provide information on the vehicle condition, help them identify faults and errors occur in their vehicle and guide them to the nearest garage which is specialized in that fault.
+              So this KIT app and the web will help to the customers on various ways and will obtain a lot advantages.
+              Issues customers face in day-to-day life when driving.
             </p>
 
             <ul>
@@ -171,7 +158,7 @@
           </div>
 
           <div class="col-lg-4 col-md-5 features-img">
-            <img src="img/gp-4.jpg" alt="" class="wow fadeInLeft">
+            <img src="img/product-features-kit.png" alt="" class="wow fadeInLeft">
           </div>
 
           <div class="col-lg-8 col-md-7 ">
@@ -191,17 +178,19 @@
               <div class="col-lg-6 col-md-6 box wow fadeInRight data-wow-delay="0.2s>
                 <div class="icon"><i class="ion-social-buffer-outline"></i></div>
                 <h4 class="title"><a href="">Garage Finder</a></h4>
-                <p class="description">When trouble alerts occur, driver/user will get locations for nearest garages from KIT garage partners.
-Garages will be filtered based on whether they are able to service the diagnosed trouble.
-</p>
+                <p class="description">
+                  When trouble alerts occur, driver/user will get locations for nearest garages from KIT garage partners.
+                  Garages will be filtered based on whether they are able to service the diagnosed trouble.
+                </p>
               </div>
               <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.3s">
                 <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
                 <h4 class="title"><a href="">Scheduler</a></h4>
-                <p class="description">Schedule services based on trouble warning.
-Schedule periodical services, Keep track of oil, water and other lubricant changes/refills &
-keeping track of license, insurance due dates and lease installments.
-</p>
+                <p class="description">
+                  Schedule services based on trouble warning.
+                  Schedule periodical services, Keep track of oil, water and other lubricant changes/refills &
+                  keeping track of license, insurance due dates and lease installments.
+                </p>
               </div>
             </div>
 
@@ -212,6 +201,44 @@ keeping track of license, insurance due dates and lease installments.
       </div>
 
     </section><!-- #features -->
+
+    <!--==========================
+      Compatibility Section
+    ============================-->
+    <section id="compatibility">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-left">
+            <h3 class="cta-title">Check Compatibility</h3>
+            <p class="cta-text"> Select your Vehicle.</p>
+            <p class="cta-text"> If your car is manufactured after January 1st 1996, then your Car is probably OBD II Compliant.</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <div class="dropdown show">
+              <a class="btn dropdown-toggle cta-btn align-middle" href="#" role="button" id="dropdownBrand" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Choose a Brand
+              </a>
+              <div class="dropdown-menu" aria-labelledby="dropdownBrand">
+                <a class="dropdown-item" href="#">Audi</a>
+                <a class="dropdown-item" href="#">BMW</a>
+                <a class="dropdown-item" href="#">Toyota</a>
+              </div>
+              <a class="btn dropdown-toggle cta-btn align-middle" href="#" role="button" id="dropdownModel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Choose a Model
+              </a>
+              <div class="dropdown-menu" aria-labelledby="dropdownModel">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+              <a class="cta-btn align-middle" href="#">Check Compatibility</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #compatibility -->
+
 
     <!--==========================
       Product Advanced Featuress Section
@@ -226,9 +253,12 @@ keeping track of license, insurance due dates and lease installments.
               <div class="wow fadeInLeft">
                 <h2>Garage Finder</h2>
                 <h3>Identify the most suitable garage</h3>
-                <p>When drivers find an issue, the next problem they come across is finding a good garage which will take care of their vehicle and not make it even worse.<br>
-                Otherwise they will have to Walking around miles for find a garage & not knowing which garage to trust. But when trouble alerts occur, driver/user will get locations for nearest garages from KIT garage partners. Garages will be filtered based on whether they are able to service the diagnosed trouble. If vehicle is stationary carriage or mobile services will be requested from the garage.
-</p>
+                <p>When drivers find an issue, the next problem they come across is finding a good garage which will take care of their vehicle and not make it even worse.<br/>
+                Otherwise they will have to walk around for miles to find a garage & not knowing which garage to trust. <br/>
+                When trouble alerts occur, driver/user will get locations for nearest garages from KIT garage partners.
+                Garages will be filtered based on whether they are able to service the diagnosed trouble.
+                If vehicle is stationary, carriage or mobile services will be requested from the garage through contacting.
+                </p>
               </div>
             </div>
           </div>
@@ -243,12 +273,11 @@ keeping track of license, insurance due dates and lease installments.
               <div class="wow fadeInRight">
                 <h2>Real Time Vehicle Data</h2>
                 <i class="ion-ios-paper-outline" class="wow fadeInRight" data-wow-duration="0.5s"></i>
-                <p class="wow fadeInRight" data-wow-duration="0.5s">Drivers are not acknowledged about how much the vehicle can give you to find faults in the vehicle and because of this drivers face infinite number of problems.</p>
+                <p class="wow fadeInRight" data-wow-duration="0.5s">KIT App will provide you information on your vehicle real-time.</p>
                 <i class="ion-ios-color-filter-outline wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s"></i>
-                <p class="wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s">The main problem is drivers suffers from not knowing when a fault occurs on the vehicle until it becomes critical. and due to that a huge amount of cash is wasted.
-</p>
+                <p class="wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s">Speed, Vehicle temperature, RPM, Fuel gauge details will be displayed on the dashboard in real-time.</p>
                 <i class="ion-ios-barcode-outline wow fadeInRight" data-wow-delay="0.4" data-wow-duration="0.5s"></i>
-                <p class="wow fadeInRight" data-wow-delay="0.4s" data-wow-duration="0.5s">Vehicle’s real-time data from ECU* gathered to mobile device via blue tooth connectivity using OBD* technology.</p>
+                <p class="wow fadeInRight" data-wow-delay="0.4s" data-wow-duration="0.5s">Vehicle’s real-time data from ECU* gathered to mobile device via Bluetooth connectivity using OBD* technology.</p>
               </div>
             </div>
           </div>
@@ -266,7 +295,7 @@ keeping track of license, insurance due dates and lease installments.
 keeping track of license, insurance due dates and lease installments.
 </p>
                 <i class="ion-ios-albums-outline"></i>
-                <p> So here i get connected with the OBD technology Identify the Engine problems, Overheating problems, Fuel and air metering etc.</p>
+                <p> So a Scheduler is introduced to keep track of these forgettable dates</p>
               </div>
             </div>
           </div>
@@ -326,7 +355,7 @@ keeping track of license, insurance due dates and lease installments.
             <div class="box wow fadeInLeft">
               <div class="icon"><i class="ion-ios-heart-outline"></i></div>
               <h4 class="title"><a href="">Feedback</a></h4>
-              <p class="description">Users will be able to rate and review on garages.So garage search will be prioritized based on these ratings and feedback will be used as proofs to assess garages</p>
+              <p class="description">Users will be able to rate and review on garages. So garage search will be prioritized based on these ratings and feedback will be used as proofs to assess garages.</p>
             </div>
           </div>
 
@@ -334,7 +363,7 @@ keeping track of license, insurance due dates and lease installments.
             <div class="box wow fadeInRight">
               <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
               <h4 class="title"><a href="">In-built Bluetooth Settings</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum rideta zanox satirente madera</p>
+              <p class="description">Users will be able to connect to the adapter via Bluetooth from the application without going to Settings to turn on Bluetooth.</p>
             </div>
           </div>
 
@@ -388,16 +417,16 @@ keeping track of license, insurance due dates and lease installments.
         <div class="section-header">
           <h3 class="section-title">Pricing</h3>
           <span class="section-divider"></span>
-          <p class="section-description">Here are the some of the best OBD devices and link where you can buy</p>
+          <p class="section-description">Here are the some of the best OBD devices and link where you can buy.</p>
         </div>
 
         <div class="row">
 
           <div class="col-lg-4 col-md-6">
             <div class="box wow fadeInLeft">
-              <h3>wsiiroon Bluetooth OBD II Scanner Adapter</h3>
-              <img src="img/adapters/adapter-1.png" height="128" width="128">
-              <h4><sup>$</sup>18.99</h4>
+              <h3>Panlong Bluetooth OBD II Scanner Adapter</h3>
+              <img src="img/adapters/adapter-5.png" height="128" width="128">
+              <h4><sup>$</sup>10.98</h4>
               <!-- <ul>
                 <li><i class="ion-android-checkmark-circle"></i> Quam adipiscing vitae proin</li>
                 <li><i class="ion-android-checkmark-circle"></i> Nec feugiat nisl pretium</li>
@@ -405,7 +434,7 @@ keeping track of license, insurance due dates and lease installments.
                 <li><i class="ion-android-checkmark-circle"></i> Pharetra massa massa ultricies</li>
                 <li><i class="ion-android-checkmark-circle"></i> Massa ultricies mi quis hendrerit</li>
               </ul> -->
-              <a href="https://www.amazon.com/wsiiroon-WIFI-OBD-Wireless-Diagnostic/dp/B071YC1J7R/ref=sr_1_8?s=automotive&ie=UTF8&qid=1529151834&sr=1-8&keywords=obd2+scanner&refinements=p_n_shipping_option-bin%3A3242350011%2Cp_36%3A1000-3000" target="_blank" class="get-started-btn">Buy on Amazon</a>
+              <a href="https://www.amazon.com/Panlong-Bluetooth-Diagnostic-Scanner-Android/dp/B00PJPHEBO/ref=sr_1_4?ie=UTF8&qid=1534652041&sr=8-4&keywords=obd2+bluetooth+adapter" target="_blank" class="get-started-btn">Buy on Amazon</a>
             </div>
           </div>
 
@@ -413,7 +442,7 @@ keeping track of license, insurance due dates and lease installments.
             <div class="box featured wow fadeInUp">
               <h3>Kitbest Bluetooth OBD II Scanner Adapter</h3>
               <img src="img/adapters/adapter-4.png" height="128" width="128">
-              <h4><sup>$</sup>10.99</h4>
+              <h4><sup>$</sup>10.97</h4>
               <!-- <ul>
                 <li><i class="ion-android-checkmark-circle"></i> Quam adipiscing vitae proin</li>
                 <li><i class="ion-android-checkmark-circle"></i> Nec feugiat nisl pretium</li>
@@ -455,60 +484,77 @@ keeping track of license, insurance due dates and lease installments.
         <div class="section-header">
           <h3 class="section-title">Frequently Asked Questions</h3>
           <span class="section-divider"></span>
-          <p class="section-description">Here are some FAQ which can be asked by the customers & which were asked by the garage owners on our vist</p>
+          <p class="section-description">Here are some FAQ which were asked by the customers.</p>
         </div>
 
         <ul id="faq-list" class="wow fadeInUp">
           <li>
-            <a data-toggle="collapse" class="collapsed" href="#faq1">Non consectetur a erat nam at lectus urna duis? <i class="ion-android-remove"></i></a>
+            <a data-toggle="collapse" class="collapsed" href="#faq1">What is OBD II? <i class="ion-android-remove"></i></a>
             <div id="faq1" class="collapse" data-parent="#faq-list">
               <p>
-                Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                OBD II is an acronym for On-Board Diagnostics II, the second generation of on-board self-diagnostic equipment requirements for light- and medium-duty vehicles. On-board diagnostic capabilities are incorporated into the hardware and software of a vehicle's on-board computer to monitor virtually every component that can affect emission performance. Each component is checked by a diagnostic routine to verify that it is functioning properly. If a problem or malfunction is detected, the OBD II system illuminates a warning light on the vehicle instrument panel to alert the driver. This warning light will typically display the phrase "Check Engine" or "Service Engine Soon," and will often include an engine symbol. The system will also store important information about any detected malfunction so that a repair technician can accurately find and fix the problem.
               </p>
             </div>
           </li>
 
           <li>
-            <a data-toggle="collapse" href="#faq2" class="collapsed">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque? <i class="ion-android-remove"></i></a>
+            <a data-toggle="collapse" href="#faq2" class="collapsed">Why do we need an OBD scan tool? <i class="ion-android-remove"></i></a>
             <div id="faq2" class="collapse" data-parent="#faq-list">
               <p>
-                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                In the past, the problem of emissions arising from motor vehicle use seemed to spiral beyond the control of most governments. The on board diagnostics OBD was found to be the only way through which the drivers can be able to monitor the performance of their cars on the road, thus avoiding the prevalence of unroadworthy vehicles plying the road.
+              <br/><br/>
+                Having the OBD scan tool is good for the driver because it allows to avoid cases of accidents which can be fatal. OBD scan tool use has also been seen to be one of the most vital financials aspects of the car use. It has tremendously helped cut the amount of money and time spent by both the motorists and the mechanics in car repair. This is because most if them can clearly pinpoint the area of car fault and give suggestions on the solutions to be undertaken thereof.
               </p>
             </div>
           </li>
 
           <li>
-            <a data-toggle="collapse" href="#faq3" class="collapsed">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi? <i class="ion-android-remove"></i></a>
+            <a data-toggle="collapse" href="#faq3" class="collapsed">How do I know the OBD system is working correctly? <i class="ion-android-remove"></i></a>
             <div id="faq3" class="collapse" data-parent="#faq-list">
               <p>
-                Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                The working of any OBD scan tool device depends on the state of the given car. When the tool is plugged in, as is the case with most of the plug and play devices, the mere tap of the scan button is enough to prompt the data code reading to proceed.
+              <br/><br/>
+                When you turn on the ignition, the “Service Engine Soon” or “Check Engine” light should flash briefly, indicating that the OBD system is ready to scan your vehicle for any malfunctions. After this brief flash, the light should stay off while you drive as long as no problems are detected. If so, you’ll be glad to know that your vehicle is equipped with an early warning system that could save you time, money, and fuel in addition to helping protect the environment!
+              <br/><br/>
+                Some OBD scan tools with Bluetooth features however have remote diagnostic capacities. The timeliness of the data and the display of the data are some of the parameters to check if the OBD 2 is working correctly.
               </p>
             </div>
           </li>
 
           <li>
-            <a data-toggle="collapse" href="#faq4" class="collapsed">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla? <i class="ion-android-remove"></i></a>
+            <a data-toggle="collapse" href="#faq4" class="collapsed">How to pair OBD II via Bluetooth?<i class="ion-android-remove"></i></a>
             <div id="faq4" class="collapse" data-parent="#faq-list">
               <p>
-                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                Make sure your car is OBD2 compatible.
+              <br/><br/>
+                Locate your car’s OBD II diagnostic port and plug in your scanner. It’s usually found under the driver’s side dashboard, under the steering wheel.
+              <br/><br/>
+                Turn on your ignition by turning your key to the 2nd turn. The engine will be off, but this provides power to your dash lights, radio and also the OBD II diagnostic port.
+              <br/><br/>
+                From your Android Smartphone or tablet, download the KIT Android App and install the app. Then open the app and turn on Bluetooth from the app, scan for the nearby devices and pair your phone with the scanner. The name of the scanner will vary depending on the model.
               </p>
             </div>
           </li>
 
           <li>
-            <a data-toggle="collapse" href="#faq5" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="ion-android-remove"></i></a>
+            <a data-toggle="collapse" href="#faq5" class="collapsed">Android Application Connection, Bluetooth Pairing Issues <i class="ion-android-remove"></i></a>
             <div id="faq5" class="collapse" data-parent="#faq-list">
               <p>
-                Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
-              </p>
-            </div>
-          </li>
-
-          <li>
-            <a data-toggle="collapse" href="#faq6" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="ion-android-remove"></i></a>
-            <div id="faq6" class="collapse" data-parent="#faq-list">
-              <p>
-                Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
+                Some scanners may require password to connect. For ELM327 products, the default password is 1234. If the password 1234 doesn’t work, try 12345 or 0000.
+              <br/><br/>
+                Open your preferred OBD-II app. Go to the application and pair with the bluetooth scanner.
+              <br/><br/>
+                Make sure it is connected and then go back to the App’s main menu to enjoy its features.
+              <br/><br/>
+                Unpair any existing Bluetooth devices such as a headset or speaker.
+              <br/><br/>
+                Make sure the App is not running in the background. Close the app before pairing.
+              <br/><br/>
+                Turn off Bluetooth, turn it back on and rescan for the device.
+              <br/><br/>
+                Make sure the paired OBD II scanner is selected within the app’s settings if it won’t connect.
+              <br/><br/>
+                Restart the Application.
               </p>
             </div>
           </li>
@@ -526,7 +572,7 @@ keeping track of license, insurance due dates and lease installments.
         <div class="section-header">
           <h3 class="section-title">Our Team</h3>
           <span class="section-divider"></span>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <p class="section-description">"Alone we can do so little, together we can do so much."</p>
         </div>
         <div class="row wow fadeInUp">
           <div class="col-lg-3 col-md-6">
