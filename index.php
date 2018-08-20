@@ -205,40 +205,115 @@
     <!--==========================
       Compatibility Section
     ============================-->
+    <?php
+
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "kitwebapp";
+
+// Create connection
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+// Check connection
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+
+
+//mysqli_close($conn);
+?>
+
+
     <section id="compatibility">
       <div class="container">
         <div class="row">
           <div class="col-lg-9 text-center text-lg-left">
-            <h3 class="cta-title">Check Compatibility</h3>
+            <?php
+                if (isset($_GET["model"])) {
+                  $model = $_GET["model"];
+                  $sql = "SELECT * FROM `vehicle` WHERE model = '".$model."'";
+                  $result = mysqli_query($conn, $sql);
+                  if (mysqli_num_rows($result) > 0) {
+                      while($row = mysqli_fetch_assoc($result)) {
+                        if($row["compatibility"] == "0"){
+                          echo '<h3 class="cta-title">Sorry model '.$model.' is not compatible!</h3>';
+                        }else{
+                          echo '<h3 class="cta-title">Model '.$model.' is compatible!</h3>';
+                        }
+                      }
+                  }
+              }else{
+                echo '<h3 class="cta-title">Check Compatibility</h3>';
+              }
+            ?>
+
             <p class="cta-text"> Select your Vehicle.</p>
             <p class="cta-text"> If your car is manufactured after January 1st 1996, then your Car is probably OBD II Compliant.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
             <div class="dropdown show">
-              <a class="btn dropdown-toggle cta-btn align-middle" href="#" role="button" id="dropdownBrand" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Choose a Brand
-              </a>
-              <div class="dropdown-menu" aria-labelledby="dropdownBrand">
-                <a class="dropdown-item" href="#">Audi</a>
-                <a class="dropdown-item" href="#">BMW</a>
-                <a class="dropdown-item" href="#">Toyota</a>
+              <!-- Button trigger modal -->
+              <a role="button" class="btn cta-btn align-middle" data-toggle="modal" data-target="#checkCompatibility">Check Compatibility</a>
+              <!-- <a class="btn dropdown-toggle cta-btn align-middle" href="#" role="button" id="dropdownBrand" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true">
+              <?php
+                if (isset($_GET["brand"])) {
+                    $brand = $_GET["brand"];
+                    echo "Choose a Model";
+                    echo '</a><div class="dropdown-menu" aria-labelledby="dropdownBrand">';
+                    $sql = "SELECT * FROM `vehicle` WHERE brand = '".$brand."'";
+                    $result = mysqli_query($conn, $sql);
+                    if (mysqli_num_rows($result) > 0) {
+                        while($row = mysqli_fetch_assoc($result)) {
+                            echo '<a class="dropdown-item" href="./index.php?model='.$row["model"].'">'.$row["model"].'</a>';
+                        }
+                    }
+                }else{
+                    echo "Choose a Brand";
+                    echo '</a><div class="dropdown-menu" aria-labelledby="dropdownBrand">';
+                    $sql = "SELECT * FROM `vehicle` GROUP BY brand";
+                    $result = mysqli_query($conn, $sql);
+                    if (mysqli_num_rows($result) > 0) {
+                        while($row = mysqli_fetch_assoc($result)) {
+                            echo '<a class="dropdown-item" href="./index.php?brand='.$row["brand"].'">'.$row["brand"].'</a>';
+                        }
+                    }
+                }
+
+              ?> -->
               </div>
-              <a class="btn dropdown-toggle cta-btn align-middle" href="#" role="button" id="dropdownModel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Choose a Model
-              </a>
-              <div class="dropdown-menu" aria-labelledby="dropdownModel">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-              <a class="cta-btn align-middle" href="#">Check Compatibility</a>
+              <!-- <a class="cta-btn align-middle" href="#">Check Compatibility</a> -->
             </div>
           </div>
+
         </div>
 
       </div>
     </section><!-- #compatibility -->
 
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="checkCompatibility" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="checkCompatibility">Select Your Vehicle</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <a class="btn dropdown-toggle cta-btn" href="#" role="button" id="dropdownBrand" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true">Select your Vehicle's Brand</a>
+            <br/>
+            <a class="btn dropdown-toggle cta-btn" href="#" role="button" id="dropdownModel" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true">Select your Vehicle's Model</a>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Check Compatibility</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!--==========================
       Product Advanced Featuress Section
@@ -320,6 +395,23 @@ keeping track of license, insurance due dates and lease installments.
 
       </div>
     </section><!-- #download -->
+
+        <!--==========================
+          Map Section
+        ============================-->
+        <section id="team" class="features-row">
+          <div class="container">
+            <div class="section-header">
+              <h3 class="section-title">Garages near Colombo</h3>
+            </div>
+            <div class="row wow fadeInUp">
+             <div style="width: 100%"><iframe width="100%" height="600" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=colombo garages+(Garages%20colombo)&amp;ie=UTF8&amp;t=&amp;z=12&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/create-google-map/">Google Maps iframe generator</a></iframe></div><br />
+            </div>
+
+          </div>
+        </section><!-- #map end -->
+
+
 
     <!--==========================
       More Features Section

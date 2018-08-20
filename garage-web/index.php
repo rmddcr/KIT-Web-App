@@ -32,7 +32,7 @@
     <link href="css/themes/all-themes.css" rel="stylesheet"/>
 </head>
 
-<body class="theme-red">
+<body class="theme-amber">
 <!-- Page Loader -->
 <div class="page-loader-wrapper">
     <div class="loader">
@@ -71,16 +71,13 @@
             <a href="javascript:void(0);" class="navbar-toggle collapsed" data-toggle="collapse"
                data-target="#navbar-collapse" aria-expanded="false"></a>
             <a href="javascript:void(0);" class="bars"></a>
-            <a class="navbar-brand" href="index.html">KIT GARAGE APP</a>
+            <a class="navbar-brand" href="index.php">KIT GARAGE ADMIN PANEL</a>
         </div>
         <div class="collapse navbar-collapse" id="navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
-                <!-- Call Search -->
-                <li><a href="javascript:void(0);" class="js-search" data-close="true"><i
-                                class="material-icons">search</i></a></li>
-                <!-- #END# Call Search -->
+
                 <!-- Notifications -->
-                <li class="dropdown">
+                <!-- <li class="dropdown">
                     <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button">
                         <i class="material-icons">notifications</i>
                         <span class="label-count">7</span>
@@ -186,93 +183,13 @@
                             <a href="javascript:void(0);">View All Notifications</a>
                         </li>
                     </ul>
-                </li>
+                </li> -->
                 <!-- #END# Notifications -->
-                <!-- Tasks -->
-                <li class="dropdown">
-                    <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button">
-                        <i class="material-icons">flag</i>
-                        <span class="label-count">9</span>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li class="header">TASKS</li>
-                        <li class="body">
-                            <ul class="menu tasks">
-                                <li>
-                                    <a href="javascript:void(0);">
-                                        <h4>
-                                            Footer display issue
-                                            <small>32%</small>
-                                        </h4>
-                                        <div class="progress">
-                                            <div class="progress-bar bg-pink" role="progressbar" aria-valuenow="85"
-                                                 aria-valuemin="0" aria-valuemax="100" style="width: 32%">
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0);">
-                                        <h4>
-                                            Make new buttons
-                                            <small>45%</small>
-                                        </h4>
-                                        <div class="progress">
-                                            <div class="progress-bar bg-cyan" role="progressbar" aria-valuenow="85"
-                                                 aria-valuemin="0" aria-valuemax="100" style="width: 45%">
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0);">
-                                        <h4>
-                                            Create new dashboard
-                                            <small>54%</small>
-                                        </h4>
-                                        <div class="progress">
-                                            <div class="progress-bar bg-teal" role="progressbar" aria-valuenow="85"
-                                                 aria-valuemin="0" aria-valuemax="100" style="width: 54%">
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0);">
-                                        <h4>
-                                            Solve transition issue
-                                            <small>65%</small>
-                                        </h4>
-                                        <div class="progress">
-                                            <div class="progress-bar bg-orange" role="progressbar" aria-valuenow="85"
-                                                 aria-valuemin="0" aria-valuemax="100" style="width: 65%">
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0);">
-                                        <h4>
-                                            Answer GitHub questions
-                                            <small>92%</small>
-                                        </h4>
-                                        <div class="progress">
-                                            <div class="progress-bar bg-purple" role="progressbar" aria-valuenow="85"
-                                                 aria-valuemin="0" aria-valuemax="100" style="width: 92%">
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="footer">
-                            <a href="javascript:void(0);">View All Tasks</a>
-                        </li>
-                    </ul>
-                </li>
-                <!-- #END# Tasks -->
-                <li class="pull-right"><a href="javascript:void(0);" class="js-right-sidebar" data-close="true"><i
-                                class="material-icons">more_vert</i></a></li>
+                <!-- Sign Out Button -->
+                <li class="pull-right"><a href="javascript:void(0);" class="tooltip-test" title="Sign Out"><i class="material-icons">input</i></a></li>
+                <!-- #END# Sign Out -->
+                <!-- <li class="pull-right"><a href="javascript:void(0);" class="js-right-sidebar" data-close="true"><i
+                                class="material-icons">more_vert</i></a></li> -->
             </ul>
         </div>
     </div>
@@ -287,9 +204,9 @@
                 <img src="images/user.png" width="48" height="48" alt="User"/>
             </div>
             <div class="info-container">
-                <div class="name" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">John Doe</div>
-                <div class="email">john.doe@example.com</div>
-                <div class="btn-group user-helper-dropdown">
+                <div class="name" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Laughs Car Care</div>
+                <div class="email">carcare@laugfs.lk</div>
+                <!-- <div class="btn-group user-helper-dropdown">
                     <i class="material-icons" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">keyboard_arrow_down</i>
                     <ul class="dropdown-menu pull-right">
                         <li><a href="javascript:void(0);"><i class="material-icons">person</i>Profile</a></li>
@@ -300,7 +217,7 @@
                         <li role="separator" class="divider"></li>
                         <li><a href="javascript:void(0);"><i class="material-icons">input</i>Sign Out</a></li>
                     </ul>
-                </div>
+                </div> -->
             </div>
         </div>
         <!-- #User Info -->
@@ -309,24 +226,24 @@
             <ul class="list">
                 <li class="header">MAIN NAVIGATION</li>
                 <li class="active">
-                    <a href="index.html">
+                    <a href="index.php">
                         <i class="material-icons">home</i>
-                        <span>Home</span>
+                        <span>Dashboard</span>
                     </a>
                 </li>
                 <li>
-                    <a href="pages/typography.html">
-                        <i class="material-icons">text_fields</i>
-                        <span>Typography</span>
+                    <a href="pages/services.html">
+                        <i class="material-icons">swap_calls</i>
+                        <span>Services</span>
                     </a>
                 </li>
                 <li>
-                    <a href="pages/helper-classes.html">
-                        <i class="material-icons">layers</i>
-                        <span>Helper Classes</span>
+                    <a href="pages/profile.html">
+                        <i class="material-icons">assignment</i>
+                        <span>Profile</span>
                     </a>
                 </li>
-                <li>
+                <!-- <li>
                     <a href="javascript:void(0);" class="menu-toggle">
                         <i class="material-icons">widgets</i>
                         <span>Widgets</span>
@@ -639,32 +556,32 @@
                         <i class="material-icons col-light-blue">donut_large</i>
                         <span>Information</span>
                     </a>
-                </li>
+                </li> -->
             </ul>
         </div>
         <!-- #Menu -->
         <!-- Footer -->
-        <div class="legal">
-            <!-- <div class="copyright">
+        <!-- <div class="legal">
+            <div class="copyright">
                 &copy; 2016 - 2017 <a href="javascript:void(0);">AdminBSB - Material Design</a>.
             </div>
             <div class="version">
                 <b>Version: </b> 1.0.5
-            </div> -->
-        </div>
+            </div>
+        </div> -->
         <!-- #Footer -->
     </aside>
     <!-- #END# Left Sidebar -->
     <!-- Right Sidebar -->
     <aside id="rightsidebar" class="right-sidebar">
-        <ul class="nav nav-tabs tab-nav-right" role="tablist">
+        <!-- <ul class="nav nav-tabs tab-nav-right" role="tablist">
             <li role="presentation" class="active"><a href="#skins" data-toggle="tab">SKINS</a></li>
             <li role="presentation"><a href="#settings" data-toggle="tab">SETTINGS</a></li>
-        </ul>
-        <div class="tab-content">
+        </ul> -->
+        <!-- <div class="tab-content">
             <div role="tabpanel" class="tab-pane fade in active in active" id="skins">
                 <ul class="demo-choose-skin">
-                    <li data-theme="red" class="active">
+                    <li data-theme="red">
                         <div class="red"></div>
                         <span>Red</span>
                     </li>
@@ -716,7 +633,7 @@
                         <div class="yellow"></div>
                         <span>Yellow</span>
                     </li>
-                    <li data-theme="amber">
+                    <li data-theme="amber" class="active">
                         <div class="amber"></div>
                         <span>Amber</span>
                     </li>
@@ -745,8 +662,8 @@
                         <span>Black</span>
                     </li>
                 </ul>
-            </div>
-            <div role="tabpanel" class="tab-pane fade" id="settings">
+            </div> -->
+            <!-- <div role="tabpanel" class="tab-pane fade" id="settings">
                 <div class="demo-settings">
                     <p>GENERAL SETTINGS</p>
                     <ul class="setting-list">
@@ -796,7 +713,7 @@
                 </div>
             </div>
         </div>
-    </aside>
+    </aside> -->
     <!-- #END# Right Sidebar -->
 </section>
 
@@ -892,7 +809,7 @@
         <!-- #END# CPU Usage -->
         <div class="row clearfix">
             <!-- Visitors -->
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                 <div class="card">
                     <div class="body bg-pink">
                         <div class="sparkline" data-type="line" data-spot-Radius="4"
@@ -917,13 +834,21 @@
                                 LAST WEEK
                                 <span class="pull-right"><b>78</b> <small>USERS</small></span>
                             </li>
+                            <li>
+                                LAST MONTH
+                                <span class="pull-right"><b>289</b> <small>USERS</small></span>
+                            </li>
+                            <li>
+                                LAST YEAR
+                                <span class="pull-right"><b>4137</b> <small>USERS</small></span>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </div>
             <!-- #END# Visitors -->
             <!-- Latest Social Trends -->
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <!-- <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                 <div class="card">
                     <div class="body bg-cyan">
                         <div class="m-b--35 font-bold align-center">TOTAL CUSTOMERS</div>
@@ -932,59 +857,49 @@
                                 This Month
                                 <span class="pull-right">
                                         30
-                                    <!-- <i class="material-icons">trending_up</i> -->
+                                    <i class="material-icons">trending_up</i>
                                       </span>
                             </li>
                             <li>
                                 Previous Month
                                 <span class="pull-right">
                                         78
-                                    <!-- <i class="material-icons">trending_up</i> -->
+                                    <i class="material-icons">trending_up</i>
                                       </span>
-                                <!-- </li>
-                                <li>#adminbsb</li>
-                                <li>#freeadmintemplate</li>
-                                <li>#bootstraptemplate</li>
-                                <li>
-                                    #freehtmltemplate
-                                    <span class="pull-right">
-                                        <i class="material-icons">trending_up</i>
-                                    </span>
-                                </li> -->
                         </ul>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!-- #END# Latest Social Trends -->
             <!-- Answered Tickets -->
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                 <div class="card">
                     <div class="body bg-teal">
-                        <div class="font-bold m-b--35">ANSWERED TICKETS</div>
+                        <div class="font-bold m-b--35">SERVICES</div>
                         <ul class="dashboard-stat-list">
                             <li>
-                                TODAY
-                                <span class="pull-right"><b>12</b> <small>TICKETS</small></span>
+                                LUBRICATION SERVICE
+                                <span class="pull-right"><b>16</b> <small>TICKETS</small></span>
                             </li>
                             <li>
-                                YESTERDAY
+                                WHEEL ALIGNMENT
                                 <span class="pull-right"><b>15</b> <small>TICKETS</small></span>
                             </li>
                             <li>
-                                LAST WEEK
-                                <span class="pull-right"><b>90</b> <small>TICKETS</small></span>
+                                ENGINE OIL AND FILTER CHANGE
+                                <span class="pull-right"><b>12</b> <small>TICKETS</small></span>
                             </li>
                             <li>
-                                LAST MONTH
-                                <span class="pull-right"><b>342</b> <small>TICKETS</small></span>
+                                ENGINE CLEANING
+                                <span class="pull-right"><b>9</b> <small>TICKETS</small></span>
                             </li>
                             <li>
-                                LAST YEAR
-                                <span class="pull-right"><b>4 225</b> <small>TICKETS</small></span>
+                                ATF CHANGE
+                                <span class="pull-right"><b>4</b> <small>TICKETS</small></span>
                             </li>
                             <li>
-                                ALL
-                                <span class="pull-right"><b>8 752</b> <small>TICKETS</small></span>
+                                BRAKE FLUID CHANGE
+                                <span class="pull-right"><b>7</b> <small>TICKETS</small></span>
                             </li>
                         </ul>
                     </div>
@@ -993,9 +908,9 @@
             <!-- #END# Answered Tickets -->
         </div>
 
-        <div class="row clearfix">
+        <!-- <div class="row clearfix"> -->
             <!-- Task Info -->
-            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+            <!-- <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
                 <div class="card">
                     <div class="header">
                         <h2>TASK INFOS</h2>
@@ -1094,10 +1009,10 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!-- #END# Task Info -->
             <!-- Browser Usage -->
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <!-- <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                 <div class="card">
                     <div class="header">
                         <h2>BROWSER USAGE</h2>
@@ -1119,7 +1034,7 @@
                         <div id="donut_chart" class="dashboard-donut-chart"></div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!-- #END# Browser Usage -->
         </div>
     </div>
