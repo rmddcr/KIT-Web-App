@@ -58,7 +58,7 @@
           <li><a href="#team">Team</a></li>
           <li><a href="#gallery">Gallery</a></li>
           <li><a href="#contact">Contact Us</a></li>
-          <li><a href="garage-web/pages/examples/sign-in.html" target="_blank">Sign In</a></li>
+          <li><a href="#garage">For Garages</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -656,6 +656,24 @@ keeping track of license, insurance due dates and lease installments.
       </div>
     </section><!-- #faq -->
 
+    <!--==========================
+      Garage Section
+    ============================-->
+    <section id="garage">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-left">
+            <h3 class="cta-title">Join with Us</h3>
+            <p class="cta-text"> Here you can join with our Garage Community.</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="garage-web/pages/examples/sign-in.html" target="_blank">Sign In</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #garage -->
+    
     <!--==========================
       Our Team Section
     ============================-->

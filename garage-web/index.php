@@ -186,7 +186,7 @@
                 </li> -->
                 <!-- #END# Notifications -->
                 <!-- Sign Out Button -->
-                <li class="pull-right"><a href="javascript:void(0);" class="tooltip-test" title="Sign Out"><i class="material-icons">input</i></a></li>
+                <li class="pull-right"><a href="pages/examples/sign-in.html" class="tooltip-test" title="Sign Out"><i class="material-icons">input</i></a></li>
                 <!-- #END# Sign Out -->
                 <!-- <li class="pull-right"><a href="javascript:void(0);" class="js-right-sidebar" data-close="true"><i
                                 class="material-icons">more_vert</i></a></li> -->
@@ -906,8 +906,74 @@
                 </div>
             </div>
             <!-- #END# Answered Tickets -->
-        </div>
 
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="card">
+                    <div class="header">
+                        <div class="row clearfix">
+                            <div class="col-xs-12 col-sm-6">
+                                <h2>WORKING HOURS</h2>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 align-right">
+                                <div class="switch panel-switch-btn">
+                                    <span class="m-r-10 font-12">AVAILABILITY</span>
+                                    <label>CLOSED<input type="checkbox" id="availability" checked><span class="lever switch-col-cyan"></span>OPEN FOR BUSINESS</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="body">
+                        <table id="mainTable" class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Opening Time</th>
+                                    <th>Closing Time</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Monday</td>
+                                    <td>8.00 AM</td>
+                                    <td>7.00 PM</td>
+                                </tr>
+                                <tr>
+                                    <td>Tuesday</td>
+                                    <td>8.00 AM</td>
+                                    <td>7.00 PM</td>
+                                </tr>
+                                <tr>
+                                    <td>Wednesday</td>
+                                    <td>8.00 AM</td>
+                                    <td>7.00 PM</td>
+                                </tr>
+                                <tr>
+                                    <td>Thursday</td>
+                                    <td>8.00 AM</td>
+                                    <td>7.00 PM</td>
+                                </tr>
+                                <tr>
+                                    <td>Friday</td>
+                                    <td>8.00 AM</td>
+                                    <td>7.00 PM</td>
+                                </tr>
+                                <tr>
+                                    <td>Saturday</td>
+                                    <td>8.00 AM</td>
+                                    <td>6.00 PM</td>
+                                </tr>
+                                <tr>
+                                    <td>Sunday</td>
+                                    <td>8.00 AM</td>
+                                    <td>6.00 PM</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- <div class="row clearfix"> -->
             <!-- Task Info -->
             <!-- <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
@@ -1078,6 +1144,10 @@
 <!-- Custom Js -->
 <script src="js/admin.js"></script>
 <script src="js/pages/index.js"></script>
+<script src="../../js/pages/tables/editable-table.js"></script>
+
+<!-- Editable Table Plugin Js -->
+<script src="../../plugins/editable-table/mindmup-editabletable.js"></script>
 
 <!-- Demo Js -->
 <script src="js/demo.js"></script>
