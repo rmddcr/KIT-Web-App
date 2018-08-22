@@ -23,6 +23,21 @@
   <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
   <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
 
+  <!-- Bootstrap Core Css -->
+  <link href="garage-web/plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+  <!-- Waves Effect Css -->
+  <link href="garage-web/plugins/node-waves/waves.css" rel="stylesheet" />
+
+  <!-- Animation Css -->
+  <link href="garage-web/plugins/animate-css/animate.css" rel="stylesheet" />
+
+  <!-- Custom Css -->
+  <link href="garage-web/css/style.css" rel="stylesheet">
+
+  <!-- AdminBSB Themes. You can choose a theme from css/themes instead of get all themes -->
+  <link href="garage-web/css/themes/all-themes.css" rel="stylesheet" />
+
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
@@ -303,13 +318,38 @@ if (!$conn) {
             </button>
           </div>
           <div class="modal-body">
-            <a class="btn dropdown-toggle cta-btn" href="#" role="button" id="dropdownBrand" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true">Select your Vehicle's Brand</a>
+            <div class="btn-group">
+                <button type="button" class="btn bg-cyan dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Select your Vehicle's Brand </span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="javascript:void(0);">Action</a></li>
+                    <li><a href="javascript:void(0);">Another action</a></li>
+                    <li><a href="javascript:void(0);">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="javascript:void(0);">Separated link</a></li>
+                </ul>
+            </div>
+            <br/><br/>
+            <div class="btn-group">
+                <button type="button" class="btn bg-cyan dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Select your Vehicle's Model </span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="javascript:void(0);">Action</a></li>
+                    <li><a href="javascript:void(0);">Another action</a></li>
+                    <li><a href="javascript:void(0);">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="javascript:void(0);">Separated link</a></li>
+                </ul>
+            </div>
+            <!-- <a class="btn dropdown-toggle cta-btn" href="#" role="button" id="dropdownBrand" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true">Select your Vehicle's Brand</a> -->
             <br/>
-            <a class="btn dropdown-toggle cta-btn" href="#" role="button" id="dropdownModel" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true">Select your Vehicle's Model</a>
+            <!-- <a class="btn dropdown-toggle cta-btn" href="#" role="button" id="dropdownModel" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true">Select your Vehicle's Model</a> -->
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Check Compatibility</button>
+            <button type="button" class="btn bg-cyan waves-effect">Check Compatibility</button>
+            <button type="button" class="btn bg-pink waves-effect" data-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
@@ -673,7 +713,7 @@ keeping track of license, insurance due dates and lease installments.
 
       </div>
     </section><!-- #garage -->
-    
+
     <!--==========================
       Our Team Section
     ============================-->
@@ -943,22 +983,22 @@ keeping track of license, insurance due dates and lease installments.
   <script src="contactform/contactform.js"></script>
 
   <!-- Template Main Javascript File -->
-  <script src="js/main.js">
+  <script src="js/main.js"></script>
 
-  <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
-  <script>
-    // Initialize Firebase
-    var config = {
-      apiKey: "AIzaSyC1O0Wm91aQ1pP_y7tTkjDR5WwlF21H2XE",
-      authDomain: "kit-web-app.firebaseapp.com",
-      databaseURL: "https://kit-web-app.firebaseio.com",
-      projectId: "kit-web-app",
-      storageBucket: "kit-web-app.appspot.com",
-      messagingSenderId: "715230902142"
-    };
-    firebase.initializeApp(config);
-  </script>
-  </script>
+
+<script src="https://www.gstatic.com/firebasejs/5.4.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyC1O0Wm91aQ1pP_y7tTkjDR5WwlF21H2XE",
+    authDomain: "kit-web-app.firebaseapp.com",
+    databaseURL: "https://kit-web-app.firebaseio.com",
+    projectId: "kit-web-app",
+    storageBucket: "kit-web-app.appspot.com",
+    messagingSenderId: "715230902142"
+  };
+  firebase.initializeApp(config);
+</script>
 
 </body>
 </html>

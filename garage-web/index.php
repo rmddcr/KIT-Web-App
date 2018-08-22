@@ -971,6 +971,9 @@
                             </tbody>
                         </table>
                     </div>
+                    <div class="button-demo align-right">
+                      <button type="submit" class="btn btn-danger btn-lg waves-effect" style="margin: 20px;">CHANGE</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -1144,10 +1147,10 @@
 <!-- Custom Js -->
 <script src="js/admin.js"></script>
 <script src="js/pages/index.js"></script>
-<script src="../../js/pages/tables/editable-table.js"></script>
+<script src="js/pages/tables/editable-table.js"></script>
 
 <!-- Editable Table Plugin Js -->
-<script src="../../plugins/editable-table/mindmup-editabletable.js"></script>
+<script src="plugins/editable-table/mindmup-editabletable.js"></script>
 
 <!-- Demo Js -->
 <script src="js/demo.js"></script>
