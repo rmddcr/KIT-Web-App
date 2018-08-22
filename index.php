@@ -216,7 +216,7 @@
 
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = "damitha@root";
 $dbname = "kitwebapp";
 
 // Create connection
@@ -308,7 +308,43 @@ if (!$conn) {
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          <div class="modal-body">
+
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+
+<ul id="myUL">
+  <li><a href="#">Adele</a></li>
+  <li><a href="#">Agnes</a></li>
+
+  <li><a href="#">Billy</a></li>
+  <li><a href="#">Bob</a></li>
+
+  <li><a href="#">Calvin</a></li>
+  <li><a href="#">Christina</a></li>
+  <li><a href="#">Cindy</a></li>
+</ul>
+
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
+
+
+
+          <!-- <div class="modal-body">
             <div class="btn-group">
                 <button type="button" class="btn bg-cyan dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Select your Vehicle's Brand </span>
@@ -316,9 +352,7 @@ if (!$conn) {
                 <ul class="dropdown-menu">
                     <li><a href="javascript:void(0);">Action</a></li>
                     <li><a href="javascript:void(0);">Another action</a></li>
-                    <li><a href="javascript:void(0);">Something else here</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="javascript:void(0);">Separated link</a></li>
+                    
                 </ul>
             </div>
             <br/><br/>
@@ -327,10 +361,8 @@ if (!$conn) {
                     Select your Vehicle's Model </span>
                 </button>
                 <ul class="dropdown-menu">
-                    <li><a href="javascript:void(0);">Action</a></li>
-                    <li><a href="javascript:void(0);">Another action</a></li>
+                    
                     <li><a href="javascript:void(0);">Something else here</a></li>
-                    <li role="separator" class="divider"></li>
                     <li><a href="javascript:void(0);">Separated link</a></li>
                 </ul>
             </div>
@@ -341,7 +373,7 @@ if (!$conn) {
           <div class="modal-footer">
             <button type="button" class="btn bg-cyan waves-effect">Check Compatibility</button>
             <button type="button" class="btn bg-pink waves-effect" data-dismiss="modal">Close</button>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
