@@ -41,12 +41,6 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-    Theme Name: Avilon
-    Theme URL: https://bootstrapmade.com/avilon-bootstrap-landing-page-template/
-    Author: BootstrapMade.com
-    License: https://bootstrapmade.com/license/
-  ======================================================= -->
 </head>
 
 <body>
@@ -59,8 +53,6 @@
 
       <div id="logo" class="pull-left">
         <h1><a href="#intro" class="scrollto"><img src="img/logo/kit.png" alt="" height="34" width="34"></a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="#intro"><img src="img/logo.png" alt="" title=""></a> -->
       </div>
 
       <nav id="nav-menu-container">
@@ -302,7 +294,6 @@ if (!$conn) {
 
         </div>
 
-      </div>
     </section><!-- #compatibility -->
 
 
@@ -503,42 +494,6 @@ keeping track of license, insurance due dates and lease installments.
       </div>
     </section><!-- #more-features -->
 
-    <!--==========================
-      Clients
-    ============================-->
-    <!-- <section id="clients">
-      <div class="container">
-
-        <div class="row wow fadeInUp">
-
-          <div class="col-md-2">
-            <img src="img/clients/client-1.png" alt="">
-          </div>
-
-          <div class="col-md-2">
-            <img src="img/clients/client-2.png" alt="">
-          </div>
-
-          <div class="col-md-2">
-            <img src="img/clients/client-3.png" alt="">
-          </div>
-
-          <div class="col-md-2">
-            <img src="img/clients/client-4.png" alt="">
-          </div>
-
-          <div class="col-md-2">
-            <img src="img/clients/client-5.png" alt="">
-          </div>
-
-          <div class="col-md-2">
-            <img src="img/clients/client-6.png" alt="">
-          </div>
-
-        </div>
-      </div>
-    </section> -->
-    <!-- #more-features -->
 
     <!--==========================
       Pricing Section
@@ -559,13 +514,6 @@ keeping track of license, insurance due dates and lease installments.
               <h3>Panlong Bluetooth OBD II Scanner Adapter</h3>
               <img src="img/adapters/adapter-5.png" height="128" width="128">
               <h4><sup>$</sup>10.98</h4>
-              <!-- <ul>
-                <li><i class="ion-android-checkmark-circle"></i> Quam adipiscing vitae proin</li>
-                <li><i class="ion-android-checkmark-circle"></i> Nec feugiat nisl pretium</li>
-                <li><i class="ion-android-checkmark-circle"></i> Nulla at volutpat diam uteera</li>
-                <li><i class="ion-android-checkmark-circle"></i> Pharetra massa massa ultricies</li>
-                <li><i class="ion-android-checkmark-circle"></i> Massa ultricies mi quis hendrerit</li>
-              </ul> -->
               <a href="https://www.amazon.com/Panlong-Bluetooth-Diagnostic-Scanner-Android/dp/B00PJPHEBO/ref=sr_1_4?ie=UTF8&qid=1534652041&sr=8-4&keywords=obd2+bluetooth+adapter" target="_blank" class="get-started-btn">Buy on Amazon</a>
             </div>
           </div>
@@ -575,13 +523,6 @@ keeping track of license, insurance due dates and lease installments.
               <h3>Kitbest Bluetooth OBD II Scanner Adapter</h3>
               <img src="img/adapters/adapter-4.png" height="128" width="128">
               <h4><sup>$</sup>10.97</h4>
-              <!-- <ul>
-                <li><i class="ion-android-checkmark-circle"></i> Quam adipiscing vitae proin</li>
-                <li><i class="ion-android-checkmark-circle"></i> Nec feugiat nisl pretium</li>
-                <li><i class="ion-android-checkmark-circle"></i> Nulla at volutpat diam uteera</li>
-                <li><i class="ion-android-checkmark-circle"></i> Pharetra massa massa ultricies</li>
-                <li><i class="ion-android-checkmark-circle"></i> Massa ultricies mi quis hendrerit</li>
-              </ul> -->
               <a href="https://www.amazon.com/Kitbest-Bluetooth-Scanner-Diagnostic-Warranty/dp/B01BY2CK32/ref=sr_1_7?s=automotive&ie=UTF8&qid=1529147618&sr=1-7&keywords=obd2+scanner&refinements=p_n_shipping_option-bin%3A3242350011" target="_blank" class="get-started-btn">Buy on Amazon</a>
             </div>
           </div>
@@ -591,13 +532,6 @@ keeping track of license, insurance due dates and lease installments.
               <h3>KOBRA Bluetooth OBD II Scanner Adapter</h3>
               <img src="img/adapters/adapter-3.png" height="128" width="128">
               <h4><sup>$</sup>12.95</h4>
-              <!-- <ul>
-                <li><i class="ion-android-checkmark-circle"></i> Quam adipiscing vitae proin</li>
-                <li><i class="ion-android-checkmark-circle"></i> Nec feugiat nisl pretium</li>
-                <li><i class="ion-android-checkmark-circle"></i> Nulla at volutpat diam uteera</li>
-                <li><i class="ion-android-checkmark-circle"></i> Pharetra massa massa ultricies</li>
-                <li><i class="ion-android-checkmark-circle"></i> Massa ultricies mi quis hendrerit</li>
-              </ul> -->
               <a href="https://www.amazon.com/KOBRA-Scanner-OBD-Wirelessly-Eliminator/dp/B01C6CZ0SQ/ref=sr_1_23?s=automotive&ie=UTF8&qid=1529147618&sr=1-23&keywords=obd2+scanner&refinements=p_n_shipping_option-bin%3A3242350011" target="_blank" class="get-started-btn">Buy on Amazon</a>
             </div>
           </div>
@@ -801,7 +735,6 @@ keeping track of license, insurance due dates and lease installments.
         <div class="section-header">
           <h3 class="section-title">Gallery</h3>
           <span class="section-divider"></span>
-          <!-- <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p> -->
         </div>
 
         <div class="row no-gutters">
@@ -845,15 +778,6 @@ keeping track of license, insurance due dates and lease installments.
               </a>
             </div>
           </div>
-<!--
-          <div class="col-lg-4 col-md-6">
-            <div class="gallery-item wow fadeInUp">
-              <a href="img/gallery/gallery-6.jpg" class="gallery-popup">
-                <img src="img/gallery/gallery-6.jpg" alt="">
-              </a>
-            </div>
-          </div> -->
-
         </div>
 
       </div>
@@ -943,17 +867,7 @@ keeping track of license, insurance due dates and lease installments.
       <div class="row">
         <div class="col-lg-6 text-lg-left text-center">
           <div class="copyright">
-            <!-- &copy; Copyright <strong>Leviathan</strong>. All Rights Reserved -->
           </div>
-          <!-- <div class="credits"> -->
-            <!--
-              All the links in the footer should remain intact.
-              You can delete the links only if you purchased the pro version.
-              Licensing information: https://bootstrapmade.com/license/
-              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Avilon
-            -->
-            <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
-          <!-- </div> -->
         </div>
         <div class="col-lg-6">
           <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
