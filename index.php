@@ -216,7 +216,7 @@
 
 $servername = "localhost";
 $username = "root";
-$password = "damitha@root";
+$password = "";
 $dbname = "kitwebapp";
 
 // Create connection
@@ -301,7 +301,7 @@ if (!$conn) {
     <!-- Modal -->
     <div class="modal fade" id="checkCompatibility" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
+        <div class="modal-content" style="margin-top:300px;">
           <div class="modal-header">
             <h5 class="modal-title" id="checkCompatibility">Select Your Vehicle</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -310,20 +310,40 @@ if (!$conn) {
           </div>
 
 
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+          <div style="margin:20px;">
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name" style="width:100%;, margin:20px;">
+<ul id="myUL" style="margin:20px;">
+  <li><a href="#">Audi A3</a></li>
+  <li><a href="#">Audi A5</a></li>
 
-<ul id="myUL">
-  <li><a href="#">Adele</a></li>
-  <li><a href="#">Agnes</a></li>
+  <li><a href="#">BMW 318i</a></li>
+  <li><a href="#">BMW 320i</a></li>
 
-  <li><a href="#">Billy</a></li>
-  <li><a href="#">Bob</a></li>
+  <li><a href="#">Ford EcoSport</a></li>
+  <li><a href="#">Ford Everest</a></li>
 
-  <li><a href="#">Calvin</a></li>
-  <li><a href="#">Christina</a></li>
-  <li><a href="#">Cindy</a></li>
+  <li><a href="#">Honda Civic</a></li>
+  <li><a href="#">Honda Fit</a></li>
+
+  <li><a href="#">Jaguar S-Type</a></li>
+  <li><a href="#">Jaguar X-Type</a></li>
+
+  <li><a href="#">Kia Picanto</a></li>
+  <li><a href="#">Kia Sorento</a></li>
+  <li><a href="#">Land Rover Defender</a></li>
+  <li><a href="#">Land Rover Discovery</a></li>
+  <li><a href="#">Suzuki Alto</a></li>
+  <li><a href="#">Suzuki WagenR</a></li>
+  <li><a href="#">Mitsubishi Galant</a></li>
+  <li><a href="#">Mitsubishi L200</a></li>
+  <li><a href="#">Subaru Forester</a></li>
+  <li><a href="#">Suzuki Alto</a></li>
+  <li><a href="#">Toyota Aqua</a></li>
+  <li><a href="#">Toyota Axio</a></li>
+  <li><a href="#">Toyota Corolla</a></li>
+
 </ul>
-
+</div>
 <script>
 function myFunction() {
     var input, filter, ul, li, a, i;
@@ -352,7 +372,7 @@ function myFunction() {
                 <ul class="dropdown-menu">
                     <li><a href="javascript:void(0);">Action</a></li>
                     <li><a href="javascript:void(0);">Another action</a></li>
-                    
+
                 </ul>
             </div>
             <br/><br/>
@@ -361,7 +381,7 @@ function myFunction() {
                     Select your Vehicle's Model </span>
                 </button>
                 <ul class="dropdown-menu">
-                    
+
                     <li><a href="javascript:void(0);">Something else here</a></li>
                     <li><a href="javascript:void(0);">Separated link</a></li>
                 </ul>
@@ -370,10 +390,10 @@ function myFunction() {
             <br/>
             <!-- <a class="btn dropdown-toggle cta-btn" href="#" role="button" id="dropdownModel" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true">Select your Vehicle's Model</a> -->
           </div>
-          <div class="modal-footer">
+          <!-- <div class="modal-footer">
             <button type="button" class="btn bg-cyan waves-effect">Check Compatibility</button>
             <button type="button" class="btn bg-pink waves-effect" data-dismiss="modal">Close</button>
-          </div> -->
+          </div> --> -->
         </div>
       </div>
     </div>

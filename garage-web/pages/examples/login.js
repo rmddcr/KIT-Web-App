@@ -6,7 +6,7 @@ function login1() {
    // window.alert(userEmail+"---"+userPassword);
    firebase.auth().onAuthStateChanged(function(user) {
     if (user) {
-        window.location.replace("http://localhost:8088/KIT-Web-App/garage-web/index.php");
+        window.location.replace("http://localhost/KIT-Web-App/garage-web/index.php");
     } else {
       // No user is signed in.
     }
@@ -19,6 +19,6 @@ function login1() {
     window.alert("Error : "+errorMessage)
     // ...
   });
- 
-   
+
+
 }
